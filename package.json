@@ -4,7 +4,7 @@
     "prod": "gulp --production",
     "dev": "gulp watch"
   },
-  "devDependencies": {
+  "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "buble": "^0.14.0",
     "css-loader": "^0.25.0",
