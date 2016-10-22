@@ -80,7 +80,7 @@
                 <a class="twitter-share-button"
                     href="https://twitter.com/intent/tweet?text=How%20much%20money%20was%20lost%20during%20the%20DynDNS%20DDoS%20attack%3F%20A%20LOT."
                     data-size="large"
-                    data-hashtags="dyndns,ddos,ddosattack">
+                    data-hashtags="dyndns,ddos,ddosattack,dnsapocalypse">
                     Tweet</a>
                 </p>
             </div>
