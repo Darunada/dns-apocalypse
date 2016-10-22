@@ -25,6 +25,7 @@
             <meta property="og:site_name" content="DNS Apocalypse" />
             <meta property="og:description" content="How much money was lost during the DynDNS attack?  A LOT." />
             <meta property="og:image" content="{{ asset(elixir('build/images/thats-all.jpg', 'build')) }}" />
+            <meta property="fb:admins" content="604408130" />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="DNS Apocalypse" />
             <meta name="twitter:url" content="https://www.dnsapocalypse.com" />
