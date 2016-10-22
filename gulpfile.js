@@ -20,5 +20,5 @@ elixir(mix => {
     mix.version(['css/app.css', 'js/app.js']);
 
     mix.copy('resources/assets/favicon', 'public');
-    mix.copy('resources/assets/images', 'public/images');
+    mix.copy('resources/assets/images', 'public/build/images');
 });
