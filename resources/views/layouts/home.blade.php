@@ -19,10 +19,16 @@
         <![endif]-->
 
         @section('extra-meta')
-            <meta property="og:url"           content="https://www.dnsapocalypse.com" />
-            <meta property="og:type"          content="website" />
-            <meta property="og:title"         content="DNS Apocalypse" />
-            <meta property="og:description"   content="How much money was lost during the DynDNS attack?  A LOT." />
+            <meta property="og:title" content="DNS Apocalypse" />
+            <meta property="og:url" content="https://www.dnsapocalypse.com" />
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="DNS Apocalypse" />
+            <meta property="og:description" content="How much money was lost during the DynDNS attack?  A LOT." />
+            <meta property="og:image" content="{{ asset(elixir('build/images/thats-all.jpg', 'build')) }}" />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:title" content="DNS Apocalypse" />
+            <meta name="twitter:url" content="https://www.dnsapocalypse.com" />
+            <meta name="twitter:image" content="{{ asset(elixir('build/images/thats-all.jpg', 'build')) }}" />
 
         @show
 
