@@ -5,11 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="How much money was lost during the DynDNS attack?  A LOT.">
         @include('layouts.partials.favicon')
 
-        <title>DNS Apocalypse - @yield('title')</title>
+        <title>DNS Apocalypse</title>
         <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,11 +19,18 @@
         <![endif]-->
 
         @section('extra-meta')
+            <meta property="og:url"           content="https://www.dnsapocalypse.com" />
+            <meta property="og:type"          content="website" />
+            <meta property="og:title"         content="DNS Apocalypse" />
+            <meta property="og:description"   content="How much money was lost during the DynDNS attack?  A LOT." />
+
         @show
 
 
     </head>
     <body>
+        <div id="fb-root"></div>
+
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
@@ -58,8 +64,22 @@
 
             <div class="container">
                 @yield('body')
+
+                <h3>Smash that like button</h3>
+                <p>
+                <div class="fb-like" data-href="https://www.dnsapocalypse.com" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                </p>
+                <p>
+                <a class="twitter-share-button"
+                    href="https://twitter.com/intent/tweet?text=How%20much%20money%20was%20lost%20during%20the%20DynDNS%20DDoS%20attack%3F%20A%20LOT."
+                    data-size="large"
+                    data-hashtags="dyndns,ddos,ddosattack">
+                    Tweet</a>
+                </p>
             </div>
         </div>
+
+
 
         <footer id="footer" class="footer">
             <div>
