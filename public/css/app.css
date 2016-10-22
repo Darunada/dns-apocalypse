@@ -5883,7 +5883,7 @@ body {
   /*padding-top: 70px;*/
   /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
   background-color: #ccc;
-  color: #634415; }
+  /*color:#443645;*/ }
 
 .header {
   background-image: url("../images/header.jpg");
@@ -5891,11 +5891,48 @@ body {
   height: 832px;
   padding-top: 51px; }
 
+.header-overlay {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
 .odometer {
-  font-size: 100px; }
+  font-size: 27px; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .odometer {
+    font-size: 60px; } }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .odometer {
+    font-size: 80px; } }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .odometer {
+    font-size: 100px; } }
 
 .content-body {
   background-color: white; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.section2 {
+  color: #443645;
+  text-shadow: 0; }
 
 #footer {
   border-top: 1px solid #444444;
